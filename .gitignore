@@ -1,0 +1,54 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.ipynb_checkpoints/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Testing / coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+
+# ==============================
+# Raw dataset
+# ==============================
+data/raw/
+
+# Keep the data directory structure
+!data/
+!data/processed/
+
+# ==============================
+# Large prediction output
+# ==============================
+results/predictions/logistic_regression_misclassifications.csv
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.log

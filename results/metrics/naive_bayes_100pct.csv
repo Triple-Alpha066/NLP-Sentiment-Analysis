@@ -1,0 +1,2 @@
+model,training_fraction,training_samples,test_samples,vocabulary_size,accuracy,precision,recall,f1,confusion_matrix
+naive_bayes,1.0,25000,25000,436525,0.87216,0.9025614399446175,0.8344,0.8671433322248088,"[[11374, 1126], [2070, 10430]]"

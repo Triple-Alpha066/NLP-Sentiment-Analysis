@@ -1,0 +1,2 @@
+model,training_fraction,training_samples,test_samples,vocabulary_size,accuracy,precision,recall,f1,confusion_matrix
+logistic_regression,1.0,25000,25000,436525,0.89656,0.8939755205849627,0.89984,0.896898173989315,"[[11166, 1334], [1252, 11248]]"
